@@ -1,0 +1,21 @@
+# C/C++ 编译产物（这些都不该进 Git）
+*.exe
+*.obj
+*.o
+*.ilk
+*.pdb
+*.lib
+*.dll
+
+# 构建输出目录
+build/
+Debug/
+Release/
+.vs/
+
+# VS Code
+.vscode/
+
+# 系统文件
+Thumbs.db
+Desktop.ini
